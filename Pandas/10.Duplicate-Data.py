@@ -15,3 +15,5 @@ print(df.shape) # check the shape of the dataframe
 # dropping duplicate values based on a specific column and keeping the last value
 df.drop_duplicates(subset=['Name'], keep='last', inplace=True) # drop duplicate values based on a specific column and keeping the last value
 print(df.shape) # check the shape of the dataframe
+# how to change the exiting dataframe
+df.drop_duplicates(subset=['Name'], keep='last', inplace=True) # drop duplicate values based on a specific column and keeping the last value

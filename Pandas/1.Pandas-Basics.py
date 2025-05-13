@@ -15,5 +15,6 @@ data = {
 df=pd.DataFrame(data)
 print(df)
 
+print(df["Name"][2]) # accessing a column])
 # checking pandas version
 print(pd.__version__)
